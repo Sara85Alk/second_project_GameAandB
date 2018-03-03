@@ -1,0 +1,61 @@
+<resources>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorButtonNormal">#FF9800</item>
+    </style>
+
+    <!-- Customize Title Text Style. -->
+    <style name="title_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <!-- Customize Team Text Style. -->
+    <style name="team_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- Customize Team Score Text Style. -->
+    <style name="team_score_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">56sp</item>
+    </style>
+
+    <!-- Customize Button Style. -->
+    <style name="button_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <!-- Customize Reset Button Style. -->
+    <style name="reset_button_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>
